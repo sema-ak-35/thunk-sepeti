@@ -1,13 +1,9 @@
-# React + Vite
+# Thunk Sepeti
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-Sepet işlemleri Redux store içinde yönetiliyor; kullanıcı bir ürün eklediğinde, ilgili action dispatch edilir ve reducer’da state güncellenerek gerçek zamanlı sepet sayısı ve tutarı güncellenir.
 
-Currently, two official plugins are available:
+-Redux sayesinde uygulamanın farklı bileşenleri arasında veri paylaşımı kolaylaştırılmış; sepete ekleme, çıkarma, miktar güncelleme gibi işlemler merkezi store üzerinden kontrol altında tutuluyor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Ekran Görüntüsü
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# thunk-sepeti
+![ezgif-40abc5f5dc66ee](https://github.com/user-attachments/assets/1470128f-1cc6-4a3a-afca-0473a097a3e5)
